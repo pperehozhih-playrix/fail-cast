@@ -6,6 +6,8 @@ bool Foo() {
 }
 
 int main() {
+	int* a = nullptr;
+	*a = 123;
 	std::string out;
 	out = Foo();
 	std::cout << out << std::endl;
